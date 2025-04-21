@@ -1,0 +1,34 @@
+orangehrm-automation/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── base/
+│   │   │   │   └── BaseTest.java                  → WebDriver setup, teardown
+│   │   │   ├── pages/
+│   │   │   │   ├── LoginPage.java                 → Login page POM
+│   │   │   │   └── DashboardPage.java             → Dashboard page POM
+│   │   │   ├── utils/
+│   │   │   │   ├── ConfigReader.java              → Read from config.properties
+│   │   │   │   ├── ExcelUtil.java                 → Read Excel files
+│   │   │   │   └── Log.java                       → Logging utility (Log4j wrapper)
+│   │   │   └── dataprovider/
+│   │   │       └── ExcelDataProvider.java         → TestNG @DataProvider from Excel
+│   │   │
+│   │   └── resources/
+│   │       ├── config.properties                  → App URL, credentials, browser
+│   │       ├── testdata/
+│   │       │   └── LoginData.xlsx                 → Excel test data
+│   │       ├── log4j2.xml                         → Logging config
+│   │       └── extent-config.xml                  → Extent report config
+│
+│   └── test/
+│       └── java/
+│           └── tests/
+│               └── LoginTest.java                 → Only @Test methods here
+│
+├── reports/                                       → Extent or Allure reports
+├── logs/                                          → Generated log files
+├── test-output/                                   → Default TestNG report output
+├── pom.xml                                        → Project dependencies & plugins
+└── README.md
