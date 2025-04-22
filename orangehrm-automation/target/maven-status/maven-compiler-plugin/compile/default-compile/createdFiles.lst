@@ -1,1 +1,4 @@
-com\example\App.class
+base\BaseTest.class
+helper\LoggerHelper.class
+helper\CommonActions.class
+pages\LoginPage.class

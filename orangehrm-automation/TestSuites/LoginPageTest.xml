@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Page Test Suite">
+    <listeners>
+        <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>
+    </listeners>
+
+    <test name="Login Page Tests">
+        <classes>
+            <class name="tests.LoginPageTest">
+                <methods>
+                    <include name="verifyLoginWithValidCredentials"/>
+                    <include name="verifyLoginWithInValidCredentials"/>
+                    <include name="verifyEmptyUsernamePassword"/>
+                    <include name="verifyForgotPasswordLink"/>
+                    <include name="verifyLogout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
