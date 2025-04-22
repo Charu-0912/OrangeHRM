@@ -1,0 +1,30 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="UnusedProperty" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="orangehrm-automation" />
+          <option value="orangehrm-automation" />
+          <option value="orangehrm-automation" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="io.netty:netty-handler:4.1.110.Final" />
+          <option value="io.netty:netty-common:4.1.110.Final" />
+          <option value="net.minidev:json-smart:2.5.0" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="In progress" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

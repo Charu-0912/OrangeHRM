@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-22T22:39:51 IST" name="Login Page Test Suite" finished-at="2025-04-22T22:41:50 IST" duration-ms="118959">
+    <groups>
+    </groups>
+    <test started-at="2025-04-22T22:39:51 IST" name="Login Page Tests" finished-at="2025-04-22T22:41:50 IST" duration-ms="118959">
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="loadPropertiesFile()[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:39:51 IST" name="loadPropertiesFile" finished-at="2025-04-22T22:39:51 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPropertiesFile -->
+        <test-method is-config="true" signature="browserInitialization(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:39:51 IST" name="browserInitialization" finished-at="2025-04-22T22:40:07 IST" duration-ms="16080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.verifyLoginWithValidCredentials()[pri:0, instance:tests.LoginPageTest@6a10b263] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:40:07 IST" name="verifyLoginWithValidCredentials" description="Verify whether user is able to login to the application with valid credentials" finished-at="2025-04-22T22:40:20 IST" duration-ms="12781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:40:20 IST" name="afterMethod" finished-at="2025-04-22T22:40:22 IST" duration-ms="1421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithValidCredentials status=SUCCESS method=LoginPageTest.verifyLoginWithValidCredentials()[pri:0, instance:tests.LoginPageTest@6a10b263] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="browserInitialization(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:40:22 IST" name="browserInitialization" finished-at="2025-04-22T22:40:30 IST" duration-ms="8168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.verifyLoginWithInValidCredentials()[pri:0, instance:tests.LoginPageTest@6a10b263] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyLoginWithInValidCredentials()[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:40:30 IST" name="verifyLoginWithInValidCredentials" description="Verify whether user is not able to login to the application with invalid credentials" finished-at="2025-04-22T22:40:43 IST" duration-ms="13083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:40:43 IST" name="afterMethod" finished-at="2025-04-22T22:40:47 IST" duration-ms="4143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInValidCredentials status=SUCCESS method=LoginPageTest.verifyLoginWithInValidCredentials()[pri:0, instance:tests.LoginPageTest@6a10b263] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="browserInitialization(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:40:47 IST" name="browserInitialization" finished-at="2025-04-22T22:40:59 IST" duration-ms="11516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.verifyEmptyUsernamePassword()[pri:0, instance:tests.LoginPageTest@6a10b263] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyEmptyUsernamePassword()[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:40:59 IST" name="verifyEmptyUsernamePassword" description="Verify whether it is having validations for empty username and password" finished-at="2025-04-22T22:41:11 IST" duration-ms="12615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyUsernamePassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:41:11 IST" name="afterMethod" finished-at="2025-04-22T22:41:13 IST" duration-ms="1338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmptyUsernamePassword status=SUCCESS method=LoginPageTest.verifyEmptyUsernamePassword()[pri:0, instance:tests.LoginPageTest@6a10b263] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="browserInitialization(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:41:13 IST" name="browserInitialization" finished-at="2025-04-22T22:41:19 IST" duration-ms="6024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.verifyForgotPasswordLink()[pri:0, instance:tests.LoginPageTest@6a10b263] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyForgotPasswordLink()[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:41:19 IST" name="verifyForgotPasswordLink" description="Verify whether forgot password link is functional" finished-at="2025-04-22T22:41:23 IST" duration-ms="4728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLink -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:41:23 IST" name="afterMethod" finished-at="2025-04-22T22:41:24 IST" duration-ms="902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgotPasswordLink status=SUCCESS method=LoginPageTest.verifyForgotPasswordLink()[pri:0, instance:tests.LoginPageTest@6a10b263] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="browserInitialization(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:41:24 IST" name="browserInitialization" finished-at="2025-04-22T22:41:33 IST" duration-ms="8767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.verifyLogout()[pri:0, instance:tests.LoginPageTest@6a10b263] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyLogout()[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:41:33 IST" name="verifyLogout" description="Verify whether user is able to logout from the application" finished-at="2025-04-22T22:41:48 IST" duration-ms="15077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a10b263]" started-at="2025-04-22T22:41:48 IST" name="afterMethod" finished-at="2025-04-22T22:41:50 IST" duration-ms="1980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogout status=SUCCESS method=LoginPageTest.verifyLogout()[pri:0, instance:tests.LoginPageTest@6a10b263] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Login Page Tests -->
+  </suite> <!-- Login Page Test Suite -->
+</testng-results>
