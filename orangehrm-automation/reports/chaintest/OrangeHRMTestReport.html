@@ -11,7 +11,7 @@
   <style></style>
 </head>
 
-<body data-bs-theme="dark">
+<body data-bs-theme="">
   <nav class="navbar border-bottom">
     <div class="container d-flex justify-content-between">
       <div>
@@ -19,9 +19,9 @@
         <span class="ms-3 fs-6">Orange HRM Automation</span>
       </div>
       <div>
-        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 1m 39s</span>
-        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-04-22 08:23:22 pm</span>
-        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-04-22 08:25:02 pm</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 2m 9s</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-04-22 10:39:42 pm</span>
+        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-04-22 10:41:52 pm</span>
           <button role="button" id="sys-info" class="btn btn-outline-primary smaller" title="View System Info">
             <i class="bi bi-pc-display-horizontal"></i></button>
         <button role="button" id="shortcuts" class="btn btn-outline-primary smaller" title="Shortcuts">
@@ -112,13 +112,13 @@
         <div class="container">
           <div class="row">
             <div class="col-4">
-              <h6 class="mb-3 testname fs-6 passed">Unit Test Suite</h6>
+              <h6 class="mb-3 testname fs-6 passed">Login Page Test Suite</h6>
               <div class="small">
-                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 1m 30s</span>
+                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 1m 59s</span>
                 <span class="badge text-bg-info"><i class="bi bi-clock me-1"></i>
-                  2025-04-22 08:23:31 pm</span>
+                  2025-04-22 10:39:51 pm</span>
                 <span class="badge text-bg-warning"><i class="bi bi-clock me-1"></i>
-                  2025-04-22 08:25:01 pm</span>
+                  2025-04-22 10:41:51 pm</span>
               </div>
               
             </div>
@@ -131,7 +131,7 @@
                         <span class="fs-6 ms-2">tests.LoginPageTest</span>
                       </div>
                       <div>
-                        <span class="badge text-dark bg-light">1m 30s</span>
+                        <span class="badge text-dark bg-light">1m 58s</span>
                       </div>
                     </div>
                     
@@ -149,17 +149,18 @@
       <p class="desc">Verify whether user is able to login to the application with valid credentials</p>
         <div class="mt-3 logs d-none">
           <pre class="pb-0">
-Element[[ChromeDriver: chrome on windows (12bceb0905f56e0157f4449c2cf83f02)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (12bceb0905f56e0157f4449c2cf83f02)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
 Entered Username : Admin
-Element[[ChromeDriver: chrome on windows (12bceb0905f56e0157f4449c2cf83f02)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (12bceb0905f56e0157f4449c2cf83f02)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-Entered password in the password field
-Element[[ChromeDriver: chrome on windows (12bceb0905f56e0157f4449c2cf83f02)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (12bceb0905f56e0157f4449c2cf83f02)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-Clicked on the login button
+Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+Entered Password : admin123
+Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+Clicked on the Login button
+Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //h6[normalize-space()='Dashboard']]Present on UI is:	true
 PASS :User is able to login to the application
-Finished test: Verify whether user is able to login to the application with valid credentials â€” Status: PASSED
+Finished test: Verify whether user is able to login to the application with valid credentials — Status : PASSED
           </pre>
         </div>
     </div>
@@ -170,23 +171,24 @@ Finished test: Verify whether user is able to login to the application with vali
           <span class="fs-6 ms-2">verifyLoginWithInValidCredentials <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">11s</span>
+          <span class="badge text-dark bg-light">13s</span>
         </div>
       </div>
       <p class="desc">Verify whether user is not able to login to the application with invalid credentials</p>
         <div class="mt-3 logs d-none">
           <pre class="pb-0">
-Element[[ChromeDriver: chrome on windows (3305e985627cded8a59ffc3c562bb676)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (3305e985627cded8a59ffc3c562bb676)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
 Entered Username : Invalid
-Element[[ChromeDriver: chrome on windows (3305e985627cded8a59ffc3c562bb676)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (3305e985627cded8a59ffc3c562bb676)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-Entered password in the password field
-Element[[ChromeDriver: chrome on windows (3305e985627cded8a59ffc3c562bb676)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (3305e985627cded8a59ffc3c562bb676)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-Clicked on the login button
+Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+Entered Password : invalid@123
+Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+Clicked on the Login button
+Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']]Present on UI is:	true
 PASS :User is not able to login with invalid credentials
-Finished test: Verify whether user is not able to login to the application with invalid credentials â€” Status: PASSED
+Finished test: Verify whether user is not able to login to the application with invalid credentials — Status : PASSED
           </pre>
         </div>
     </div>
@@ -197,23 +199,24 @@ Finished test: Verify whether user is not able to login to the application with 
           <span class="fs-6 ms-2">verifyEmptyUsernamePassword <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">11s</span>
+          <span class="badge text-dark bg-light">12s</span>
         </div>
       </div>
       <p class="desc">Verify whether it is having validations for empty username and password</p>
         <div class="mt-3 logs d-none">
           <pre class="pb-0">
-Element[[ChromeDriver: chrome on windows (e17c61e5593a0fa63ba390bdc0f830a4)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (e17c61e5593a0fa63ba390bdc0f830a4)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
 Entered Username : 
-Element[[ChromeDriver: chrome on windows (e17c61e5593a0fa63ba390bdc0f830a4)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (e17c61e5593a0fa63ba390bdc0f830a4)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-Entered password in the password field
-Element[[ChromeDriver: chrome on windows (e17c61e5593a0fa63ba390bdc0f830a4)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (e17c61e5593a0fa63ba390bdc0f830a4)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-Clicked on the login button
+Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+Entered Password : 
+Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+Clicked on the Login button
+Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //div[@class='orangehrm-login-slot-wrapper']//div[1]//div[1]//span[1]]Present on UI is:	true
 PASS :Showing error message on login with empty credentials
-Finished test: Verify whether it is having validations for empty username and password â€” Status: PASSED
+Finished test: Verify whether it is having validations for empty username and password — Status : PASSED
           </pre>
         </div>
     </div>
@@ -224,17 +227,18 @@ Finished test: Verify whether it is having validations for empty username and pa
           <span class="fs-6 ms-2">verifyForgotPasswordLink <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">3s</span>
+          <span class="badge text-dark bg-light">4s</span>
         </div>
       </div>
       <p class="desc">Verify whether forgot password link is functional</p>
         <div class="mt-3 logs d-none">
           <pre class="pb-0">
-Element[[ChromeDriver: chrome on windows (82e739087ae2e78a580dac5ce16e5564)] -> xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (82e739087ae2e78a580dac5ce16e5564)] -> xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']]Present on UI is:	true
-Clicked on the forgot password link
+Element[[ChromeDriver: chrome on windows (3caee3866fc2c943fc67899d6345faa8)] -> xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (3caee3866fc2c943fc67899d6345faa8)] -> xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']]Present on UI is:	true
+Clicked on the Forgot Password link
+Element[[ChromeDriver: chrome on windows (3caee3866fc2c943fc67899d6345faa8)] -> xpath: //h6[normalize-space()='Reset Password']]Present on UI is:	true
 PASS :Forgot password link is functional
-Finished test: Verify whether forgot password link is functional â€” Status: PASSED
+Finished test: Verify whether forgot password link is functional — Status : PASSED
           </pre>
         </div>
     </div>
@@ -245,29 +249,30 @@ Finished test: Verify whether forgot password link is functional â€” Status: PAS
           <span class="fs-6 ms-2">verifyLogout <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">14s</span>
+          <span class="badge text-dark bg-light">15s</span>
         </div>
       </div>
       <p class="desc">Verify whether user is able to logout from the application</p>
         <div class="mt-3 logs d-none">
           <pre class="pb-0">
-Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
 Entered Username : Admin
-Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-Entered password in the password field
-Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-Clicked on the login button
-Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //span[@class='oxd-userdropdown-tab']]Present on UI is:	true
-Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //span[@class='oxd-userdropdown-tab']]Present on UI is:	true
-Clicked on the actions drop down
-Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //a[normalize-space()='Logout']]Present on UI is:	false
-Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //a[normalize-space()='Logout']]Present on UI is:	true
-Clicked on the logout button
+Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+Entered Password : admin123
+Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+Clicked on the Login button
+Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //span[@class='oxd-userdropdown-tab']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //span[@class='oxd-userdropdown-tab']]Present on UI is:	true
+Clicked on the Actions dropdown
+Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //a[normalize-space()='Logout']]Present on UI is:	true
+Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //a[normalize-space()='Logout']]Present on UI is:	true
+Clicked on the Logout button
+Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
 PASS :User is able to logout from the application
-Finished test: Verify whether user is able to logout from the application â€” Status: PASSED
+Finished test: Verify whether user is able to logout from the application — Status : PASSED
           </pre>
         </div>
     </div>

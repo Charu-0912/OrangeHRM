@@ -67,7 +67,7 @@ public class BaseTest {
 
         driver.get(prop.getProperty("URL"));
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 
     }
 
@@ -80,12 +80,12 @@ public class BaseTest {
                 : result.getMethod().getMethodName();
 
         if (result.getStatus() == ITestResult.FAILURE) {
-            ChainTestListener.log("Finished test: " + testCaseName + " — Status: FAILED");
+            ChainTestListener.log("Finished test: " + testCaseName + " — Status : FAILED");
             takeScreenShotAndAttach(result.getMethod().getMethodName());
         } else if (result.getStatus() == ITestResult.SUCCESS) {
-            ChainTestListener.log("Finished test: " + testCaseName + " — Status: PASSED");
+            ChainTestListener.log("Finished test: " + testCaseName + " — Status : PASSED");
         } else if (result.getStatus() == ITestResult.SKIP) {
-            ChainTestListener.log("Finished test: " + testCaseName + " — Status: SKIPPED");
+            ChainTestListener.log("Finished test: " + testCaseName + " — Status : SKIPPED");
         }
 
         driver.quit();

@@ -50,67 +50,80 @@ public class LoginPage {
     @FindBy(xpath = "//a[normalize-space()='Logout']")
     WebElement LogoutButton;
 
+
+    // Public Actions
     public void loginToApplication(String username, String password) {
         enterUsername(username);
         enterPassword(password);
-        clickOnLoginButton();
+        clickLoginButton();
     }
 
-    public void enterUsername(String username) {
-        commonActions.isElementPresent(UsernameField);
-        commonActions.enterData(UsernameField, username);
-        LoggerHelper.info("Entered Username : " + username);
-    }
-
-    public void enterPassword(String password) {
-        commonActions.isElementPresent(PasswordField);
-        commonActions.enterData(PasswordField, password);
-        LoggerHelper.info("Entered password in the password field");
-    }
-
-    public void clickOnLoginButton() {
-        commonActions.isElementPresent(LoginButton);
-        commonActions.click(LoginButton);
-        commonActions.waitFor(10000);
-        LoggerHelper.info("Clicked on the login button");
-    }
-
-    public void clickOnForgotPasswordLink() {
-        commonActions.isElementPresent(ForgotPasswordLink);
-        commonActions.click(ForgotPasswordLink);
+    public void clickForgotPassword() {
+        clickElement(ForgotPasswordLink, "Forgot Password link");
         commonActions.waitFor(2000);
-        LoggerHelper.info("Clicked on the forgot password link");
     }
 
-    public void logoutFromApplication(String username, String password) {
+    public void logout(String username, String password) {
         loginToApplication(username, password);
-        commonActions.isElementPresent(ActionDropDown);
-        commonActions.click(ActionDropDown);
-        LoggerHelper.info("Clicked on the actions drop down");
-
-        commonActions.isElementPresent(LogoutButton);
-        commonActions.click(LogoutButton);
-        LoggerHelper.info("Clicked on the logout button");
+        clickElement(ActionDropDown, "Actions dropdown");
+        clickElement(LogoutButton, "Logout button");
     }
 
-    public boolean invalidLoginFlag() {
-        return InvalidCredentialsError.getText().equalsIgnoreCase("Invalid credentials");
+    // Verification Methods
+    public boolean isDashboardDisplayed() {
+        return isElementDisplayed(DashboardLabel);
     }
 
-    public boolean emptyLoginFlag() {
-        return (RequiredLabel.isDisplayed());
+    public boolean isInvalidLoginMessageShown() {
+        return textEquals(InvalidCredentialsError, "Invalid credentials");
     }
 
-    public boolean loginFlag() {
-        return (DashboardLabel.isDisplayed());
+    public boolean isRequiredLabelShown() {
+        return isElementDisplayed(RequiredLabel);
     }
 
-    public boolean forgotPasswordFlag() {
-        return ResetPasswordLabel.isDisplayed();
+    public boolean isResetPasswordDisplayed() {
+        return isElementDisplayed(ResetPasswordLabel);
     }
 
-    public boolean loginPageFlag() {
-        return LoginButton.isDisplayed();
+    public boolean isLoginPageVisible() {
+        return isElementDisplayed(LoginButton);
+    }
+
+    // Private helpers
+    private void enterUsername(String username) {
+        enterText(UsernameField, username, "Username");
+    }
+
+    private void enterPassword(String password) {
+        enterText(PasswordField, password, "Password");
+    }
+
+    private void clickLoginButton() {
+        clickElement(LoginButton, "Login button");
+        commonActions.waitFor(10000);
+    }
+
+    private void enterText(WebElement element, String value, String fieldName) {
+        commonActions.isElementPresent(element);
+        commonActions.enterData(element, value);
+        LoggerHelper.info("Entered " + fieldName + " : " + value);
+    }
+
+    private void clickElement(WebElement element, String elementName) {
+        commonActions.isElementPresent(element);
+        commonActions.click(element);
+        LoggerHelper.info("Clicked on the " + elementName);
+    }
+
+    private boolean isElementDisplayed(WebElement element) {
+        commonActions.isElementPresent(element);
+        return element.isDisplayed();
+    }
+
+    private boolean textEquals(WebElement element, String expectedText) {
+        commonActions.isElementPresent(element);
+        return element.getText().equalsIgnoreCase(expectedText);
     }
 
 }

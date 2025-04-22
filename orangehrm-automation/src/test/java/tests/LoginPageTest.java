@@ -2,8 +2,6 @@ package tests;
 
 import base.BaseTest;
 import helper.CommonActions;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 
@@ -17,7 +15,7 @@ public class LoginPageTest extends BaseTest {
         loginPage = new LoginPage(driver);
         commonActions = new CommonActions(driver);
         loginPage.loginToApplication(prop.getProperty("Username"), prop.getProperty("Password"));
-        commonActions.verifyAssertTrue(loginPage.loginFlag(),
+        commonActions.verifyAssertTrue(loginPage.isDashboardDisplayed(),
                 "User is able to login to the application",
                 "User is not able to login to the application");
 
@@ -28,7 +26,7 @@ public class LoginPageTest extends BaseTest {
         loginPage = new LoginPage(driver);
         commonActions = new CommonActions(driver);
         loginPage.loginToApplication(prop.getProperty("InvalidUsername"), prop.getProperty("InvalidPassword"));
-        commonActions.verifyAssertTrue(loginPage.invalidLoginFlag(),
+        commonActions.verifyAssertTrue(loginPage.isInvalidLoginMessageShown(),
                 "User is not able to login with invalid credentials",
                 "User is able to login to the application with invalid credentials");
 
@@ -39,7 +37,7 @@ public class LoginPageTest extends BaseTest {
         loginPage = new LoginPage(driver);
         commonActions = new CommonActions(driver);
         loginPage.loginToApplication("", "");
-        commonActions.verifyAssertTrue(loginPage.emptyLoginFlag(),
+        commonActions.verifyAssertTrue(loginPage.isRequiredLabelShown(),
                 "Showing error message on login with empty credentials",
                 "Not showing error message on login with empty credentials");
 
@@ -49,8 +47,8 @@ public class LoginPageTest extends BaseTest {
     public void verifyForgotPasswordLink() {
         loginPage = new LoginPage(driver);
         commonActions = new CommonActions(driver);
-        loginPage.clickOnForgotPasswordLink();
-        commonActions.verifyAssertTrue(loginPage.forgotPasswordFlag(),
+        loginPage.clickForgotPassword();
+        commonActions.verifyAssertTrue(loginPage.isResetPasswordDisplayed(),
                 "Forgot password link is functional",
                 "Forgot password link is not functional");
 
@@ -60,8 +58,8 @@ public class LoginPageTest extends BaseTest {
     public void verifyLogout() {
         loginPage = new LoginPage(driver);
         commonActions = new CommonActions(driver);
-        loginPage.logoutFromApplication(prop.getProperty("Username"), prop.getProperty("Password"));
-        commonActions.verifyAssertTrue(loginPage.loginPageFlag(),
+        loginPage.logout(prop.getProperty("Username"), prop.getProperty("Password"));
+        commonActions.verifyAssertTrue(loginPage.isLoginPageVisible(),
                 "User is able to logout from the application",
                 "User is not able to logout from the application");
 

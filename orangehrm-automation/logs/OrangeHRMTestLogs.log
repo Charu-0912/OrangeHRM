@@ -1,68 +1,70 @@
-[INFO ] 2025-04-22 20:23:31.303 [main] Utils - [TestNG] Running:
-  F:\SDET\OrangeHRM\orangehrm-automation\TestSuites\LoginPageTest.xml
-
-[INFO ] 2025-04-22 20:23:31.769 [main] WebDriverManager - Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
-[INFO ] 2025-04-22 20:23:31.796 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
-[INFO ] 2025-04-22 20:23:35.891 [main] BaseTest - Launching Chrome browser
-[INFO ] 2025-04-22 20:23:42.823 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (12bceb0905f56e0157f4449c2cf83f02)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
-[INFO ] 2025-04-22 20:23:43.063 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (12bceb0905f56e0157f4449c2cf83f02)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
-[INFO ] 2025-04-22 20:23:43.355 [main] LoggerHelper - Entered Username : Admin
-[INFO ] 2025-04-22 20:23:43.412 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (12bceb0905f56e0157f4449c2cf83f02)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-[INFO ] 2025-04-22 20:23:43.481 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (12bceb0905f56e0157f4449c2cf83f02)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-[INFO ] 2025-04-22 20:23:43.610 [main] LoggerHelper - Entered password in the password field
-[INFO ] 2025-04-22 20:23:43.714 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (12bceb0905f56e0157f4449c2cf83f02)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-[INFO ] 2025-04-22 20:23:43.776 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (12bceb0905f56e0157f4449c2cf83f02)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-[INFO ] 2025-04-22 20:23:53.948 [main] LoggerHelper - Clicked on the login button
-[INFO ] 2025-04-22 20:23:54.000 [main] LoggerHelper - PASS :User is able to login to the application
-[INFO ] 2025-04-22 20:23:54.676 [main] WebDriverManager - Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
-[INFO ] 2025-04-22 20:23:54.692 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
-[INFO ] 2025-04-22 20:23:56.183 [main] BaseTest - Launching Chrome browser
-[INFO ] 2025-04-22 20:23:59.775 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (3305e985627cded8a59ffc3c562bb676)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
-[INFO ] 2025-04-22 20:23:59.805 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (3305e985627cded8a59ffc3c562bb676)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
-[INFO ] 2025-04-22 20:23:59.937 [main] LoggerHelper - Entered Username : Invalid
-[INFO ] 2025-04-22 20:23:59.999 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (3305e985627cded8a59ffc3c562bb676)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:00.030 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (3305e985627cded8a59ffc3c562bb676)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:00.159 [main] LoggerHelper - Entered password in the password field
-[INFO ] 2025-04-22 20:24:00.195 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (3305e985627cded8a59ffc3c562bb676)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:00.225 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (3305e985627cded8a59ffc3c562bb676)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:10.321 [main] LoggerHelper - Clicked on the login button
-[INFO ] 2025-04-22 20:24:10.373 [main] LoggerHelper - PASS :User is not able to login with invalid credentials
-[INFO ] 2025-04-22 20:24:11.087 [main] WebDriverManager - Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
-[INFO ] 2025-04-22 20:24:11.177 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
-[INFO ] 2025-04-22 20:24:12.515 [main] BaseTest - Launching Chrome browser
-[INFO ] 2025-04-22 20:24:16.729 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (e17c61e5593a0fa63ba390bdc0f830a4)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:16.805 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (e17c61e5593a0fa63ba390bdc0f830a4)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:17.254 [main] LoggerHelper - Entered Username : 
-[INFO ] 2025-04-22 20:24:17.294 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (e17c61e5593a0fa63ba390bdc0f830a4)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:17.325 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (e17c61e5593a0fa63ba390bdc0f830a4)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:17.414 [main] LoggerHelper - Entered password in the password field
-[INFO ] 2025-04-22 20:24:17.446 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (e17c61e5593a0fa63ba390bdc0f830a4)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:17.473 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (e17c61e5593a0fa63ba390bdc0f830a4)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:27.566 [main] LoggerHelper - Clicked on the login button
-[INFO ] 2025-04-22 20:24:27.593 [main] LoggerHelper - PASS :Showing error message on login with empty credentials
-[INFO ] 2025-04-22 20:24:28.498 [main] WebDriverManager - Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
-[INFO ] 2025-04-22 20:24:28.513 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
-[INFO ] 2025-04-22 20:24:29.999 [main] BaseTest - Launching Chrome browser
-[INFO ] 2025-04-22 20:24:38.431 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (82e739087ae2e78a580dac5ce16e5564)] -> xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:38.460 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (82e739087ae2e78a580dac5ce16e5564)] -> xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:41.426 [main] LoggerHelper - Clicked on the forgot password link
-[INFO ] 2025-04-22 20:24:41.468 [main] LoggerHelper - PASS :Forgot password link is functional
-[INFO ] 2025-04-22 20:24:42.044 [main] WebDriverManager - Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
-[INFO ] 2025-04-22 20:24:42.055 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
-[INFO ] 2025-04-22 20:24:43.366 [main] BaseTest - Launching Chrome browser
-[INFO ] 2025-04-22 20:24:46.904 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:46.938 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:47.009 [main] LoggerHelper - Entered Username : Admin
-[INFO ] 2025-04-22 20:24:47.045 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:47.104 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:47.207 [main] LoggerHelper - Entered password in the password field
-[INFO ] 2025-04-22 20:24:47.238 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:47.261 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:58.768 [main] LoggerHelper - Clicked on the login button
-[INFO ] 2025-04-22 20:24:58.818 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //span[@class='oxd-userdropdown-tab']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:58.843 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //span[@class='oxd-userdropdown-tab']]Present on UI is:	true
-[INFO ] 2025-04-22 20:24:58.942 [main] LoggerHelper - Clicked on the actions drop down
-[INFO ] 2025-04-22 20:24:59.008 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //a[normalize-space()='Logout']]Present on UI is:	false
-[INFO ] 2025-04-22 20:24:59.051 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (bed599f543abafcd90239ffa9dfeb3ca)] -> xpath: //a[normalize-space()='Logout']]Present on UI is:	true
-[INFO ] 2025-04-22 20:25:00.560 [main] LoggerHelper - Clicked on the logout button
-[INFO ] 2025-04-22 20:25:00.952 [main] LoggerHelper - PASS :User is able to logout from the application
+[INFO ] 2025-04-22 22:39:52.197 [main] WebDriverManager - Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+[INFO ] 2025-04-22 22:39:52.239 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+[INFO ] 2025-04-22 22:39:56.077 [main] BaseTest - Launching Chrome browser
+[INFO ] 2025-04-22 22:40:08.974 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:09.061 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:09.402 [main] LoggerHelper - Entered Username : Admin
+[INFO ] 2025-04-22 22:40:09.523 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:09.618 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:09.940 [main] LoggerHelper - Entered Password : admin123
+[INFO ] 2025-04-22 22:40:10.143 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:10.235 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:10.546 [main] LoggerHelper - Clicked on the Login button
+[INFO ] 2025-04-22 22:40:20.640 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7742cf4ca6ac27e304fdb1991b31683b)] -> xpath: //h6[normalize-space()='Dashboard']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:20.708 [main] LoggerHelper - PASS :User is able to login to the application
+[INFO ] 2025-04-22 22:40:22.269 [main] WebDriverManager - Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+[INFO ] 2025-04-22 22:40:22.281 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+[INFO ] 2025-04-22 22:40:23.627 [main] BaseTest - Launching Chrome browser
+[INFO ] 2025-04-22 22:40:31.356 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:31.615 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:31.953 [main] LoggerHelper - Entered Username : Invalid
+[INFO ] 2025-04-22 22:40:32.032 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:32.139 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:32.546 [main] LoggerHelper - Entered Password : invalid@123
+[INFO ] 2025-04-22 22:40:32.700 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:32.785 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:33.024 [main] LoggerHelper - Clicked on the Login button
+[INFO ] 2025-04-22 22:40:43.200 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (4d7e35ee980debcdc0260e34964d4d54)] -> xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']]Present on UI is:	true
+[INFO ] 2025-04-22 22:40:43.407 [main] LoggerHelper - PASS :User is not able to login with invalid credentials
+[INFO ] 2025-04-22 22:40:48.218 [main] WebDriverManager - Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+[INFO ] 2025-04-22 22:40:48.247 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+[INFO ] 2025-04-22 22:40:54.048 [main] BaseTest - Launching Chrome browser
+[INFO ] 2025-04-22 22:40:59.725 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:00.263 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:00.395 [main] LoggerHelper - Entered Username : 
+[INFO ] 2025-04-22 22:41:00.594 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:00.738 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:01.021 [main] LoggerHelper - Entered Password : 
+[INFO ] 2025-04-22 22:41:01.164 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:01.229 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:01.629 [main] LoggerHelper - Clicked on the Login button
+[INFO ] 2025-04-22 22:41:11.709 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (7453e239cd8f28f98416375cf934e74a)] -> xpath: //div[@class='orangehrm-login-slot-wrapper']//div[1]//div[1]//span[1]]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:11.741 [main] LoggerHelper - PASS :Showing error message on login with empty credentials
+[INFO ] 2025-04-22 22:41:13.148 [main] WebDriverManager - Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+[INFO ] 2025-04-22 22:41:13.171 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+[INFO ] 2025-04-22 22:41:16.044 [main] BaseTest - Launching Chrome browser
+[INFO ] 2025-04-22 22:41:19.997 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (3caee3866fc2c943fc67899d6345faa8)] -> xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:20.056 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (3caee3866fc2c943fc67899d6345faa8)] -> xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:21.685 [main] LoggerHelper - Clicked on the Forgot Password link
+[INFO ] 2025-04-22 22:41:23.807 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (3caee3866fc2c943fc67899d6345faa8)] -> xpath: //h6[normalize-space()='Reset Password']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:23.847 [main] LoggerHelper - PASS :Forgot password link is functional
+[INFO ] 2025-04-22 22:41:24.806 [main] WebDriverManager - Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+[INFO ] 2025-04-22 22:41:24.823 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+[INFO ] 2025-04-22 22:41:26.056 [main] BaseTest - Launching Chrome browser
+[INFO ] 2025-04-22 22:41:34.944 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:35.176 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //input[@placeholder='Username']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:35.669 [main] LoggerHelper - Entered Username : Admin
+[INFO ] 2025-04-22 22:41:35.774 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:35.932 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //input[@placeholder='Password']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:36.151 [main] LoggerHelper - Entered Password : admin123
+[INFO ] 2025-04-22 22:41:36.216 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:36.261 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:36.456 [main] LoggerHelper - Clicked on the Login button
+[INFO ] 2025-04-22 22:41:46.522 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //span[@class='oxd-userdropdown-tab']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:46.560 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //span[@class='oxd-userdropdown-tab']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:46.692 [main] LoggerHelper - Clicked on the Actions dropdown
+[INFO ] 2025-04-22 22:41:46.765 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //a[normalize-space()='Logout']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:46.832 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //a[normalize-space()='Logout']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:48.173 [main] LoggerHelper - Clicked on the Logout button
+[INFO ] 2025-04-22 22:41:48.560 [main] LoggerHelper - Element[[ChromeDriver: chrome on windows (fec53353aa898c88e0c00d2abecfd37b)] -> xpath: //button[normalize-space()='Login']]Present on UI is:	true
+[INFO ] 2025-04-22 22:41:48.604 [main] LoggerHelper - PASS :User is able to logout from the application
